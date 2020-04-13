@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="start" layoutX="214.0" layoutY="32.0" mnemonicParsing="false" onAction="#Start" prefHeight="25.0" prefWidth="62.0" text="Start" />
+      <Button fx:id="b1" layoutX="14.0" layoutY="80.0" mnemonicParsing="false" onAction="#game" prefHeight="48.0" prefWidth="54.0" text="1" />
+      <Button fx:id="b2" layoutX="83.0" layoutY="80.0" mnemonicParsing="false" onAction="#game" prefHeight="48.0" prefWidth="54.0" text="2" />
+      <Button fx:id="b3" layoutX="150.0" layoutY="80.0" mnemonicParsing="false" onAction="#game" prefHeight="48.0" prefWidth="54.0" text="3" />
+      <Button fx:id="b4" layoutX="14.0" layoutY="143.0" mnemonicParsing="false" onAction="#game" prefHeight="48.0" prefWidth="54.0" text="4" />
+      <Button fx:id="b5" layoutX="83.0" layoutY="143.0" mnemonicParsing="false" onAction="#game" prefHeight="48.0" prefWidth="54.0" text="5" />
+      <Button fx:id="b6" layoutX="150.0" layoutY="143.0" mnemonicParsing="false" onAction="#game" prefHeight="48.0" prefWidth="54.0" text="6" />
+      <Button fx:id="b7" layoutX="14.0" layoutY="210.0" mnemonicParsing="false" onAction="#game" prefHeight="48.0" prefWidth="54.0" text="7" />
+      <Button fx:id="b8" layoutX="83.0" layoutY="210.0" mnemonicParsing="false" onAction="#game" prefHeight="48.0" prefWidth="54.0" text="8" />
+      <Button fx:id="b9" layoutX="150.0" layoutY="210.0" mnemonicParsing="false" onAction="#game" prefHeight="48.0" prefWidth="54.0" text=" " />
+      <Label fx:id="time" layoutX="3.0" layoutY="32.0" prefHeight="25.0" prefWidth="193.0" text="Licznik kliknięć:" />
+   </children>
+</Pane>
